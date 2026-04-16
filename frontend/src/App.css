@@ -1,0 +1,36 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f6f9;
+}
+
+.navbar{
+background:#2c3e50;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+}
+
+.navbar a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.page{
+padding:20px;
+}
+
+.jobs{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.card{
+background:rgb(159, 160, 162);
+padding:20px;
+border-radius:10px;
+box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+}
