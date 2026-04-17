@@ -1,6 +1,12 @@
 node_modules/
 backend/node_modules/
 
+*.json
+*.csv
+*.zip
+*.mp4
+*.exe
+
 .env
 *.log
 dist/
